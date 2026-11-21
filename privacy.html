@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Privacy and support | ZitoMath</title>
 <meta name="description" content="ZitoMath privacy notice, support contact and how to delete your account.">
 <link rel="canonical" href="https://zitomath.com/privacy">
-<meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0E1424" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0A1122">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ZitoMath">
 <meta property="og:title" content="Privacy and support | ZitoMath">
@@ -20,20 +19,21 @@
 <link rel="preload" href="/bricolage-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/nunito-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css">
-<script>document.documentElement.classList.remove('no-js')</script>
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header on-night">
   <div class="wrap nav">
-    <a class="brand" href="/"><img src="/icon.webp" alt="" width="34" height="34">ZitoMath</a>
-    <ul class="nav-links" id="menu"><li><a href="/">Home</a></li><li><a href="/features">Features</a></li><li><a href="/parents">For parents</a></li><li><a href="/pricing">Pricing & FAQ</a></li><li class="mobile-cta"><a class="btn btn-primary" href="/pricing">Start free</a></li></ul>
-    <a class="btn btn-primary btn-nav" href="/pricing">Start free</a>
+    <a class="brand" href="/"><img src="/icon.webp" alt="" width="36" height="36">ZitoMath</a>
+    <ul class="nav-links" id="menu"><li><a href="/">Home</a></li><li><a href="/features">Features</a></li><li><a href="/parents">For parents</a></li><li><a href="/pricing">Pricing</a></li><li class="mobile-cta"><a class="btn btn-primary" href="/pricing">Start free</a></li></ul>
+    <a class="btn btn-primary nav-cta" href="/pricing">Start free</a>
     <button class="menu-btn" aria-controls="menu" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
   </div>
 </header>
 <main id="main">
-<section class="page-hero"><div class="wrap legal"><h1>ZitoMath privacy and support</h1>
+<section class="night page-hero" style="padding-bottom:40px"><div class="wrap"><span class="kicker">Privacy &amp; support</span></div></section>
+<section class="legal-wrap"><div class="wrap legal"><h1>ZitoMath privacy and support</h1>
 <p class="muted">ZitoMath: AI Math Tutor · Digitalcian Technologies Limited · Updated 2026-11-20</p>
 <nav><a href="#support">Support</a><a href="#privacy">Privacy notice</a><a href="#delete-account">Delete your account</a><a href="#retention">Data retention</a><a href="#security">Security</a></nav>
 <section id="support"><h2>Support</h2><div class="card"><p>Questions about ZitoMath, your subscription or your family's information? Email <a href="mailto:support@zitomath.com">support@zitomath.com</a>. We reply within 30 days, usually much sooner.</p>
@@ -52,30 +52,22 @@
   <div class="wrap">
     <div class="foot">
       <div>
-        <a class="brand" href="/"><img src="/icon.webp" alt="" width="34" height="34">ZitoMath</a>
-        <p class="muted" style="margin-top:14px;max-width:36ch">An AI math tutor that follows your child's school curriculum, from Kindergarten to Grade 12.</p>
+        <a class="brand" href="/"><img src="/icon.webp" alt="" width="36" height="36">ZitoMath</a>
+        <p>The AI math tutor that follows your child's school curriculum, from Kindergarten to Grade 12.</p>
       </div>
-      <div>
-        <h4>ZitoMath</h4>
-        <ul><li><a href="/features">Features</a></li><li><a href="/parents">For parents &amp; safety</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/pricing#faq">FAQ</a></li></ul>
-      </div>
-      <div>
-        <h4>Help</h4>
-        <ul><li><a href="mailto:support@zitomath.com">support@zitomath.com</a></li><li><a href="/privacy#support">Support</a></li><li><a href="/privacy">Privacy notice</a></li><li><a href="/privacy#delete-account">Delete your account</a></li></ul>
-      </div>
+      <div><h4>Product</h4><ul><li><a href="/features">Features</a></li><li><a href="/parents">For parents &amp; safety</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/pricing#faq">FAQ</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="mailto:support@zitomath.com">support@zitomath.com</a></li><li><a href="/privacy#support">Support</a></li><li><a href="/privacy">Privacy notice</a></li><li><a href="/privacy#delete-account">Delete your account</a></li></ul></div>
     </div>
-    <div class="legal-line">
-      <span>© 2026 Digitalcian Technologies Limited. 5 Alhaji Tokan Street, Alaka Estate, Surulere, Lagos, Nigeria.</span>
-      <span>ZitoMath's tutor is an AI, not a person.</span>
-    </div>
+    <div class="legal-line"><span>© 2026 Digitalcian Technologies Limited · 5 Alhaji Tokan Street, Alaka Estate, Surulere, Lagos, Nigeria</span><span>ZitoMath's tutor is an AI, not a person.</span></div>
   </div>
 </footer>
 <script>
 (function(){
   var h=document.querySelector('.site-header'),b=document.querySelector('.menu-btn'),m=document.getElementById('menu');
-  function s(){h.classList.toggle('scrolled',window.scrollY>4)}s();addEventListener('scroll',s,{passive:true});
+  function s(){h.classList.toggle('scrolled',window.scrollY>8)}s();addEventListener('scroll',s,{passive:true});
   b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu')});
-  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)})}else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')})}
+  var els=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -6% 0px'});els.forEach(function(el){if(el.getBoundingClientRect().top<innerHeight)el.classList.add('in');else io.observe(el)})}else{els.forEach(function(el){el.classList.add('in')})}
 })();
 </script>
 </body>
